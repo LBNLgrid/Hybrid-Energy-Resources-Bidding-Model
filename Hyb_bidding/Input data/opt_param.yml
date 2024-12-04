@@ -1,0 +1,24 @@
+# optional parameters
+cvar_weight: 0 # 0 to 1 with 0=do not consider risk and 1=fully consider risk
+gridcharge: 1 # 0=No grid charging allowed, 1=Grid charging unrestricted
+bid_type: 1 #(2=stairstep, 1=self-schedule)
+formulation: "MILP" #(MILP or LP)
+price_heuristic : "yes" # (yes or no)
+nscen_breaks: 6 # Maximum number of bidding curve breakpoints
+break_mode: "mid"  # Determines how the breakpoints are set between the classes (group of bid points)
+                   # "mid": Midpoint between classes
+                   # "prop": Proportionally between classes so that classes with more points are given a wider price interval
+price_floor: -150  # usd_per_MWh
+price_ceil: 1000 # usd_per_MWh
+x_step_min: 0.1 #Treats two points on the bid curve as equal if x (MW) component differs by less than this threshold.
+                #Points are removed from curve accordingly.
+q1min: 1e-10 #smallest positive quantity bid allowed by PSO (power system operator)
+cvar_confid: 0.95 # between 0 and 1
+dev_plus_addifzero: -.5 #ensures costs for deviation when price scen is 0
+dev_minus_addifzero: .5 #ensures costs for deviation when price scen is 0
+p_thresh_heur_pcentile: [0.2,0.8] #price percentiles (of annual prices) used to set low/high price heuristic
+pHoriz_scale: 2 # establishes a high price as a multiple of the highest hourly price among all scenarios over the time horizon
+rt_vs_da: 1 #0 day ahead 1 real time
+enforce_da_rt: 1  # 0 no rt constraint 1 include rt constraints
+start_date: [2024,04,18]
+timezone: 'America/New_York'

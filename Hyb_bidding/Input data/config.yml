@@ -1,0 +1,17 @@
+# Configuration file
+Hybrid:
+  POI: 178.1  # point of interconnection power capacity (MW)
+  Name: 'HYB_DA_RT_C2'
+
+Gen:
+ max: 118.1  # maximum generation capacity in (MW)
+ opCost: 0  # operating cost of generator (S/MW)
+
+Esr:
+ init: 6 # initial SOC (MW)
+ max: 240 # maximum capacity of ESR (MW)
+ min: 0 # minimum capacity of ESR (MW)
+ effCrg: 0.921954445729289 # Charging efficiency of ESR (between 0 and 1)
+ effDis: 0.921954445729289 # discharging efficiency of ESR (between 0 and 1)
+ opCost: 0  # operating cost of generator (S/MW)
+ power: 60  # Maximum rate of charge/discharge (MW)

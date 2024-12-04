@@ -1,2 +1,0 @@
-from high_low_price_heuristc import get_high_low_price_heuristic
-pqt_bids_full=get_high_low_price_heuristic(bid_instances_1[ii], object_instances, np.tile(priceDA,(n_soc, 1)), np.tile(gen_data, (n_soc, 1)), np.tile(probS, (n_soc, 1)), np.arange(0, 24), p_thresh_heur[0], p_thresh_heur[1], pHoriz_scale, price_ceil, esr, POI, gridcharge,n_soc)
