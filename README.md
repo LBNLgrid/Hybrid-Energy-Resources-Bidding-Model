@@ -1,9 +1,10 @@
-# Hybrid-Bidding
+# Hybrid-Energy-Resources-Bidding-Model
+
 
 ### Overview
--Hybrid-Bidding is a tool designed to generate hourly bid curves for a day-ahead market, catering to a single, self-managed resource participation hybrid model.
--This tool addresses the uncertainty in renewable generation and market prices.
--Users can generate regular, self-schedule, and stair-step bid curves according to their requirements.
+- Hybrid-Energy-Resources-Bidding-Model is a tool designed to generate hourly bid curves for a day-ahead market, catering to a single, self-managed resource participation hybrid model.
+- This tool addresses the uncertainty in renewable generation and market prices.
+- Users can generate regular, self-schedule, and stair-step bid curves according to their requirements.
 
 The tool frames the problem as either a Mixed Integer Linear Programming (MILP) or Linear Programming (LP) optimization, based on user preference.
 
