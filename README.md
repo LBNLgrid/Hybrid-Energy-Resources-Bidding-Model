@@ -48,7 +48,7 @@ Hyb_bidding/main.py
 Input data samples  are available in the Hyb_bidding/Input data folder.
 The optimization problem parameters can be adjusted in the config.yml and opt_param. yml  located in the Hyb_bidding/Input data.
 
-## output
+## Output
 This tool outputs two types of bid tables: bid_table_day_ahead.csv and bid_table_real_time.csv. These tables contain structured bidding data pertinent to energy markets. Below is a detailed breakdown of each column present in these bid tables:
 
 -Price_USD_per_MWh: This column lists the bid price in U.S. dollars per megawatt-hour. 
@@ -65,6 +65,7 @@ This tool outputs two types of bid tables: bid_table_day_ahead.csv and bid_table
 
 -Hybrid_Name:  Lists the name of the hybrid system as specified by the user in the  “yaml” file.
   
+## Copyright Notice
 *** Copyright Notice ***
 
 Hybrid Energy Resources Bidding Model (HERB) Copyright (c) 2025, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
