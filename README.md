@@ -42,7 +42,7 @@ You can run the model by executing the following command in the main folder:
 Hyb_bidding/main.py
 ```
 ## Code Structure 
-![image](https://github.com/AnaTiw/Hybrid-Bidding/assets/157315954/53de3401-3023-45a2-a336-4b682692782e)
+![image](code.png)
 
 ## Input data
 Input data samples  are available in the Hyb_bidding/Input data folder.
